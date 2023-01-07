@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--
+        bean 등록
+        container에서 bean 목록에서 고유한 이름을 가지고 찾게 된다.
+        이때 공유한 이름은 <bean id="name">에 설정을 하게 된다.
+        만약 id를 생략 하는 경우 id는 class의 이름에서 앞글자를 소문자로 하는 rule을 적용하게 된다.
+        class는 객체의 풀클래스 타입을 설정하게 된다.
+    -->
+    <bean id="memberDTO" class="com.lacred.springstudy.section01.MemberDTO">
+
+    </bean>
+</beans>
